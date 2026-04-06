@@ -13,5 +13,5 @@ services:
     name: crm-frontend
     runtime: static
     plan: free
-    buildCommand: npm install && npm run build
-    staticPublishDir: ./dist
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishDir: ./frontend/dist
