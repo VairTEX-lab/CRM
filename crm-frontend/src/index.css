@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@400;600;700&display=swap");
+
+:root {
+  color: #000000;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}

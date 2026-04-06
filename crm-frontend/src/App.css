@@ -1,0 +1,117 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Montserrat", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.auth-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background: linear-gradient(180deg, #004685 0%, #0d4f90 100%);
+}
+
+.auth-card {
+  width: min(560px, 100%);
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.16);
+}
+
+.auth-brand {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.auth-logo {
+  width: 220px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 8px 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.auth-eyebrow {
+  margin: 0 0 4px;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #6c7f93;
+  font-weight: 700;
+}
+
+.auth-brand h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #004685;
+  font-family: "League Spartan", "Arial Black", sans-serif;
+}
+
+.auth-muted {
+  margin: 8px 0 0;
+  color: #5e6b79;
+  line-height: 1.5;
+}
+
+.auth-form {
+  display: grid;
+  gap: 14px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 6px;
+  color: #5e6b79;
+  font-size: 0.94rem;
+}
+
+.auth-form input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  padding: 12px 14px;
+  background: #ffffff;
+}
+
+.auth-form button {
+  border: none;
+  border-radius: 999px;
+  padding: 13px 18px;
+  background: #004685;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-form button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.auth-error {
+  margin: 0;
+  color: #8a2f2f;
+  font-weight: 600;
+}

@@ -1,0 +1,2 @@
+prefix_rule(pattern=["C:\\Users\\carri\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe", "-Command", "npm install"], decision="allow")
+prefix_rule(pattern=["C:\\Users\\carri\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe", "-Command", "npm run build"], decision="allow")

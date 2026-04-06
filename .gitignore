@@ -1,0 +1,11 @@
+.env
+crm-frontend/.env
+node_modules/
+crm-frontend/node_modules/
+crm-frontend/dist/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+.sandbox-bin/

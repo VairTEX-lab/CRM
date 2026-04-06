@@ -1,0 +1,17 @@
+{
+  "name": "crm-api",
+  "version": "1.0.0",
+  "description": "Node.js Express CRM API for contacts, companies, and deals",
+  "main": "src/server.js",
+  "scripts": {
+    "import:crm": "node scripts/import-crm.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "xlsx": "^0.18.5"
+  }
+}
