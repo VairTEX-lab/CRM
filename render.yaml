@@ -3,14 +3,12 @@ services:
     name: crm-backend
     runtime: node
     plan: free
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: node index.js
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node index.js
 
   - type: web
     name: crm-frontend
     runtime: static
     plan: free
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishDir: dist
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishDir: ./frontend/dist
