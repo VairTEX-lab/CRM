@@ -9,8 +9,9 @@ services:
       - key: NODE_VERSION
         value: 18.16.0
 
-  - type: static
+  - type: web
     name: crm-frontend
+    runtime: static
     plan: free
     buildCommand: npm install && npm run build
     staticPublishDir: ./dist
